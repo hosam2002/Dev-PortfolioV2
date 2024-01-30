@@ -1,0 +1,88 @@
+.profile {
+
+    position: relative;
+
+    width: 100%;
+    min-height: 40rem;
+    margin: 0 auto;
+    border-radius: 10px;
+
+    padding: 2rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile__description {
+
+    text-align: left;
+    width: 65%;
+}
+
+.profile__title {
+
+    margin-bottom: 1.5rem;
+
+    font-size: 5.6rem;
+    font-weight: 900;
+}
+
+.profile__about {
+
+    font-size: 2.8rem;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.profile__img > img { width: 35rem; }
+
+
+/* Responsive Design */
+
+@media screen and (max-width: 65.625em /* 1050 */) {
+
+    .profile {
+
+        flex-direction: column;
+        padding-bottom: 5rem;
+    }
+
+    .profile__img {
+
+        margin-top: 7.5rem;
+    }
+
+    .profile__title,
+    .profile__description {
+
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 37.5em) {
+
+    .profile {
+
+        padding: 5rem;
+        align-items: flex-start;
+    }
+
+    .profile__title,
+    .profile__description {
+
+        width: 100%;
+        text-align: left;
+    }
+
+    .profile__img {
+
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 27.8125em) {
+
+
+    .profile__img img { width: 25rem; }
+}

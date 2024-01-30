@@ -1,0 +1,81 @@
+.techniques {
+
+    min-height: 35rem;
+
+    background-color: transparent;
+
+    display: grid;
+    grid-template-columns: repeat(5, 20rem);
+    grid-template-rows: repeat(auto, 10rem);
+
+    place-content: center;
+    gap: 1rem;
+}
+
+.techniques__item {
+
+    width: 20rem;
+}
+
+/* ====== Lang and Tool ====== */
+
+.lt {
+
+    height: 10rem;
+    width: 100%;
+
+    padding: 1.5rem;
+    border: 1px solid var(--grey-200);
+    border-radius: 10px;
+    box-shadow: var(--shadow-lg);
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.lt__name {
+
+    margin-top: .5rem;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.lt__img { font-size: 3.2rem; border-radius: 5px; color: var(--slate-800) }
+
+/* Responsive Design */
+
+@media screen and (max-width: 68.125em /* 1090 */) {
+    
+    .techniques {
+
+        grid-template-columns: repeat(4, 20rem);
+        padding: 7.5rem 0 !important;
+    }
+}
+
+@media screen and (max-width: 56.875em /* 910 */) {
+
+    .techniques {
+
+        grid-template-columns: repeat(3, 20rem);
+        padding: 7.5rem 0 !important;
+    }
+}
+
+@media screen and (max-width: 41.875em) {
+
+    .techniques {
+
+        grid-template-columns: repeat(2, 20rem);
+    }
+}
+
+@media screen and (max-width: 27.8125em) {
+
+    .techniques {
+        grid-template-columns: repeat(1, 20rem);
+        gap: 2.5rem;
+    }
+}
