@@ -1,11 +1,10 @@
 footer {
 
-    margin-top: 10rem;
-
     width: 100%;
     height: max-content;
 
-    padding: 2.5rem 0;
+    padding: 5rem;
+    background-color: var(--slate-050);
 }
 
 .footer__logo,
@@ -13,7 +12,7 @@ footer {
 
     width: 100%;
     height: max-content;
-    text-align: left;
+    text-align: center;
 }
 
 .footer__logo img { width: 23rem }
@@ -59,7 +58,7 @@ footer {
     margin-bottom: 1.5rem;
 
     font-size: 1.9rem;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .list__link:not(:last-child) { margin-bottom: 1.5rem; }
@@ -74,9 +73,11 @@ footer {
     font-size: 1.4rem;
 }
 
-/* Responsive Design */
+.list__link:hover { text-decoration: underline; }
 
-@media screen and (max-width: 50.9375em) {
+/* Responsive */
+
+@media screen and (max-width: 50.9375em /* 815 */) {
 
     .footer {
         

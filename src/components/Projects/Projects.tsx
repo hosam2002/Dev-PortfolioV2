@@ -7,7 +7,7 @@ const Project = () => {
 
         <>
 
-            <div className="projects section">
+            <div className="projects full-w-section">
 
                 <img className="projects__img" src="./background.svg" alt="" />
                 <div className="projects__heading"> <h1> Recent Projects </h1> </div>

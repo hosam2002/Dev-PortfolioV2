@@ -44,7 +44,7 @@
 
 .lt__img { font-size: 3.2rem; border-radius: 5px; color: var(--slate-800) }
 
-/* Responsive Design */
+/* Responsive */
 
 @media screen and (max-width: 68.125em /* 1090 */) {
     
@@ -64,7 +64,7 @@
     }
 }
 
-@media screen and (max-width: 41.875em) {
+@media screen and (max-width: 41.875em /* 670 */ ) {
 
     .techniques {
 
@@ -72,7 +72,7 @@
     }
 }
 
-@media screen and (max-width: 27.8125em) {
+@media screen and (max-width: 27.8125em /* 445 */) {
 
     .techniques {
         grid-template-columns: repeat(1, 20rem);
