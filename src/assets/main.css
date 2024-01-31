@@ -226,7 +226,7 @@ h1 {
 }
 @media (max-width: 37.5em) {
   .profile__description {
-    padding: 0.85rem;
+    padding: 1.25rem;
   }
 }
 @media (max-width: 31.25em) {

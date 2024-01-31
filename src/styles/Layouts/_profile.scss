@@ -46,7 +46,7 @@
             text-align: center;
         }
 
-        @include respond (break-600) { padding: .85rem; }
+        @include respond (break-600) { padding: 1.25rem; }
         @include respond (break-500) { text-align: left; }
 
         position: relative;
