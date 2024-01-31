@@ -1,5 +1,7 @@
 footer {
 
+    margin-top: 5rem;
+
     width: 100%;
     height: max-content;
 
@@ -12,11 +14,11 @@ footer {
 
     width: 100%;
     height: max-content;
-    text-align: center;
+    text-align: left;
 }
 
-.footer__logo img { width: 23rem }
-.footer__desc { margin-top: 1rem; }
+.footer__logo img { width: 25rem }
+.footer__desc { margin-top: 1.5rem; }
 
 .footer__desc {
 

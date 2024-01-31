@@ -1,11 +1,12 @@
 .header {
 
-    max-width: 1280px;
+    width: 100%;
     margin: 0 auto;
-    height: 10rem;
+    height: 13rem;
 
-    background-color: transparent;
-    border-radius: 5px;
+    background-color: var(--white);
+    border-bottom: 1px solid var(--grey-200);
+    box-shadow: var(--shadow-md);
 
     padding: 0 5rem;
 

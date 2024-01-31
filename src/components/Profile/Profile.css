@@ -1,13 +1,10 @@
 .profile {
-
-    position: relative;
-
+    
     width: 100%;
     min-height: 40rem;
     margin: 0 auto;
+    padding: 0 !important;
     border-radius: 10px;
-
-    padding: 2rem;
 
     display: flex;
     justify-content: space-between;

@@ -8,7 +8,7 @@
     
     color: var(--white);
     text-align: left;
-    background-color: var(--slate-900);
+    background-color: var(--slate-800);
 }
 
 .projects__img {
@@ -84,7 +84,7 @@
     z-index: -10;
 }
 
-.projects__footer {}
+.projects__footer { display: none; }
 .projects__footer img { width: 100% }
 
 /* Responsive */
