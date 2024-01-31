@@ -1,4 +1,3 @@
-import './Techniques.css'
 import { ReactElement } from "react";
 
 interface Prop {

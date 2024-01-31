@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-  <g id="uuid-97a5ab1e-9433-4d74-973e-cb5f687355bd" data-name="Layer 2">
-    <rect width="512" height="512" style="fill: #fff; opacity: 0;"/>
-  </g>
-  <g id="uuid-e003c004-2920-43d8-bf0f-2a6042c5d44a" data-name="bg">
-    <path d="M233.9,222.4v44.5h21.9v-44.5h-21.9Zm0,0v44.5h21.9v-44.5h-21.9ZM54,177.2v135h112.3v22.6h89.7v-22.6h202V177.2H54Zm112.2,112.4h-22.6v-67h-22.6v67h-44.5v-89.7h89.7v89.7Zm112.4,0h-44.5v22.6h-45.3v-112.3h89.8v89.7Zm157.3,0h-22.6v-67h-22.6v67h-22.6v-67h-22.6v67h-44.5v-89.7h134.9v89.7h0Zm-180.1-67.2h-21.9v44.5h21.9v-44.5Z" style="fill: #d1d5db;"/>
-  </g>
-</svg>

@@ -1,0 +1,62 @@
+// Shadow
+
+@mixin shadow    { box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1); }
+@mixin shadow-sm { box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05); }
+@mixin shadow-md { box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1); }
+@mixin shadow-lg { box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1); }
+@mixin shadow-xl { box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1); }
+
+// Breakpoints
+
+@mixin respond ($breakpoint) {
+
+    @if ($breakpoint == break-1090) {
+
+        @media(max-width: 68.125em) { @content };
+    }
+
+    @if ($breakpoint == break-1050) {
+
+        @media(max-width: 65.625em) { @content };
+    }
+
+    @if ($breakpoint == break-910) {
+
+        @media(max-width: 56.875em) { @content };
+    }
+
+    @if ($breakpoint == break-815) {
+
+        @media(max-width: 50.9375em) { @content };
+    }
+
+    @if ($breakpoint == break-800) {
+
+        @media(max-width: 50em) { @content };
+    }
+
+    @if ($breakpoint == break-670) {
+
+        @media(max-width: 41.875em) { @content };
+    }
+
+    @if ($breakpoint == break-600) {
+
+        @media(max-width: 37.5em) { @content };
+    }
+
+    @if ($breakpoint == break-520) {
+
+        @media(max-width: 32.5em) { @content };
+    }
+
+    @if ($breakpoint == break-445) {
+
+        @media(max-width: 27.8125em) { @content };
+    }
+
+    @if ($breakpoint == break-400) {
+
+        @media(max-width: 27em) { @content };
+    }
+}

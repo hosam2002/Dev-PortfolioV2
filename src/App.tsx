@@ -3,7 +3,8 @@ import Profile from './components/Profile/Profile'
 import Techniques from './components/Techniques/Techniques'
 import Project from './components/Projects/Projects'
 import Footer from './components/Footer/Footer'
-import './App.css'
+
+import './assets/main.css';
 
 function App() {
 

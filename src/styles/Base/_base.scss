@@ -3,7 +3,6 @@
 :root {
 
   --background: #d835a7;
-  
   --white: #FFF;
   --white-01: hsla(0, 0%, 100%, 0.1);
   --white-02: hsla(0, 0%, 100%, 0.2);
@@ -151,11 +150,4 @@ h1 {
 
   font-size: inherit;
   font-weight: inherit;
-}
-
-/* Responsive Design */
-
-@media screen and (max-width: 50.9375em) {
-
-  #root { padding: 0; }
 }

@@ -1,5 +1,4 @@
 import Links from './Links';
-import './Header.css';
 
 const Header = () => {
 

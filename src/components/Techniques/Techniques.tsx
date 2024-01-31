@@ -10,7 +10,6 @@ import { FaGitAlt } from "react-icons/fa";
 import { MdOutlinePhonelink } from "react-icons/md";
 
 import LT from './LangAndTool'
-import './Techniques.css'
 
 const Techniques = () => {
 
