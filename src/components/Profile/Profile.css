@@ -3,7 +3,6 @@
     width: 100%;
     min-height: 40rem;
     margin: 0 auto;
-    padding: 0 !important;
     border-radius: 10px;
 
     display: flex;
@@ -35,11 +34,13 @@
 .profile__img > img { width: 35rem; }
 
 
-/* Responsive Design */
+/* Responsive */
 
 @media screen and (max-width: 65.625em /* 1050 */) {
 
     .profile {
+
+        margin-top: 5rem;
 
         flex-direction: column;
         padding-bottom: 5rem;
