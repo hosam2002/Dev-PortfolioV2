@@ -43,6 +43,8 @@ const Footer = () => {
             
             </div>
 
+            <div className="footer__copyrights"> &copy; 2024 Hosam Umbaddi </div>
+
         </footer>
     )
 }

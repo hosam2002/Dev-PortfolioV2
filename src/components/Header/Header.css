@@ -51,3 +51,14 @@
 .links__icon > img { width: 2.5rem }
 .links__icon:hover { transform: translateY(-4px); }
 .links__icon:active { transform: translateY(0); }
+
+
+/* Responsive */
+
+@media screen and (max-width: 37.5em /* 600 */ ) {
+
+    .header {
+
+        padding: 0 2.5rem;
+    }
+}

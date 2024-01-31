@@ -6,6 +6,7 @@ footer {
     height: max-content;
 
     padding: 5rem;
+    padding-bottom: 2.5rem;
     background-color: var(--slate-050);
 }
 
@@ -27,7 +28,7 @@ footer {
     line-height: 1.7;
 
     padding-bottom: 2.5rem;
-    border-bottom: 1px solid var(--grey-400);
+    border-bottom: 1px solid var(--grey-300);
 }
 
 .footer__nav {
@@ -40,6 +41,15 @@ footer {
     grid-template-rows: repeat(auto, max-content);
 
     gap: 5rem;
+}
+
+.footer__copyrights {
+
+    padding-top: 2.5rem;
+    border-top: 1px solid var(--grey-300);
+
+    font-size: 1.4rem;
+    font-weight: 400;
 }
 
 /* ====== List ====== */
