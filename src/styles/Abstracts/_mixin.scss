@@ -50,6 +50,11 @@
         @media(max-width: 32.5em) { @content };
     }
 
+    @if ($breakpoint == break-500) {
+
+        @media(max-width: 31.25em) { @content };
+    }
+
     @if ($breakpoint == break-445) {
 
         @media(max-width: 27.8125em) { @content };

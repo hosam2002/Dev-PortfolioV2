@@ -6,7 +6,7 @@ const Project = () => {
 
         <>
 
-            <div className="projects full-w-section" id='projects'>
+            <div className="projects section__wide" id='projects'>
 
                 <img className="projects__img" src="./background.svg" alt="" />
                 <div className="projects__heading"> <h1> Recent Projects </h1> </div>

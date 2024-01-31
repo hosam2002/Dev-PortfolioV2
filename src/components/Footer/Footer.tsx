@@ -2,7 +2,7 @@ const Footer = () => {
 
     return (
 
-        <footer className="footer">
+        <footer className="footer section__wide">
 
             <div className="footer__logo"> <img src="HosamUmbaddiLogoSlate.svg" /> </div>
             <div className="footer__desc"> Hire me, I'm ready for Freelance Work </div>

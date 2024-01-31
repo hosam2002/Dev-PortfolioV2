@@ -125,14 +125,8 @@ body {
 
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2.5rem;
-}
 
-.full-w-section {
-
-  width: 100%;
-  padding: 2.5rem;
-  
+  &__wide { width: 100%;}
 }
 
 [class$=__heading] {
