@@ -19,13 +19,13 @@
     @include respond (break-1090)  {
 
         grid-template-columns: repeat(4, 20rem);
-        padding: 7.5rem 0 !important;
+        padding: 7.5rem 0;
     }
 
     @include respond (break-910) {
 
         grid-template-columns: repeat(3, 20rem);
-        padding: 7.5rem 0 !important;
+        padding: 7.5rem 0;
     }
 
     @include respond (break-670) {
