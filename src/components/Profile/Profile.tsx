@@ -4,7 +4,7 @@ const Profile = () => {
 
     return (
 
-        <div className="profile section">
+        <div className="profile section" id='home'>
 
             <div className="profile__description">
 

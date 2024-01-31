@@ -16,7 +16,7 @@ const Techniques = () => {
 
     return (
 
-        <div className="techniques section">
+        <div className="techniques section" id='techniques'>
 
             <div className="techniques__item"> <LT name="html" img={<FaHtml5 className="lt__img" />}/> </div>
             <div className="techniques__item"> <LT name="css" img={<FaCss3Alt className="lt__img" />}/> </div>
